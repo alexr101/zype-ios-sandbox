@@ -1,6 +1,6 @@
 platform :ios, '7.0'
 
-target "Zype" do
+target "App Template" do
 pod 'SVProgressHUD' #progress indicator
 pod 'SDWebImage' #image downloading/caching
 pod 'Valet' #keychain wrapper 

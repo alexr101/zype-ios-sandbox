@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		654D88C2798963BB588CD3FB /* libPods-Zype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 764C0AB300D78554EAEF60E3 /* libPods-Zype.a */; };
 		780AC6A31BDFD284007F1119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BB52881A76D7D100E901F1 /* AppDelegate.m */; };
 		780AC6B41BDFD284007F1119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BB52851A76D7D100E901F1 /* main.m */; };
 		780AC6D21BDFD284007F1119 /* ZypeDBMappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B96FF88A1B17B535007CA447 /* ZypeDBMappingModel.xcmappingmodel */; };
@@ -34,6 +33,7 @@
 		780AC6FE1BDFD284007F1119 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BB52C81A7819BC00E901F1 /* OpenSans-Light.ttf */; };
 		780AC6FF1BDFD284007F1119 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BB52C41A7819BC00E901F1 /* OpenSans-BoldItalic.ttf */; };
 		780AC7021BDFD284007F1119 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1BB52C51A7819BC00E901F1 /* OpenSans-ExtraBold.ttf */; };
+		79710A1FCD010B1F08955B7A /* libPods-App Template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B19FF3C18EEE70F682116AF /* libPods-App Template.a */; };
 		A107974A1D4015F700F84B61 /* PlaylistCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A10797481D4015F700F84B61 /* PlaylistCollectionViewCell.m */; };
 		A107974B1D4015F700F84B61 /* PlaylistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10797491D4015F700F84B61 /* PlaylistCollectionViewCell.xib */; };
 		A1149D851D89AB200021646B /* ACAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1149D841D89AB200021646B /* ACAdManager.m */; };
@@ -149,9 +149,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DD0AEA7B5AE6D1C598FD3F3 /* Pods-Zype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zype/Pods-Zype.debug.xcconfig"; sourceTree = "<group>"; };
+		4B19FF3C18EEE70F682116AF /* libPods-App Template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App Template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764C0AB300D78554EAEF60E3 /* libPods-Zype.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Zype.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		780AC7081BDFD284007F1119 /* Zype TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zype TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780AC7081BDFD284007F1119 /* App Template TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Template TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963FC4151AC9C54700CD2C19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		963FC41B1AC9C56600CD2C19 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9677B76A1ACB11FC0043515D /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
@@ -326,10 +326,11 @@
 		A15D10CB1DE4CF3C00BAB958 /* PlaylistVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistVideo.h; path = Models/PlaylistVideo.h; sourceTree = "<group>"; };
 		A15D10CC1DE4CF3C00BAB958 /* PlaylistVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistVideo.m; path = Models/PlaylistVideo.m; sourceTree = "<group>"; };
 		A17BC02B1E92A8D70000A2FC /* VideoSummaryLight.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = VideoSummaryLight.html; sourceTree = "<group>"; };
-		A1D84BA0F72FFDAA8DEC35F6 /* Pods-Zype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zype.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zype/Pods-Zype.release.xcconfig"; sourceTree = "<group>"; };
 		B96C78BD1B40E85000B56C6B /* EpisodeControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EpisodeControllerDelegate.h; path = Protocols/EpisodeControllerDelegate.h; sourceTree = "<group>"; };
 		B96FF88A1B17B535007CA447 /* ZypeDBMappingModel.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = ZypeDBMappingModel.xcmappingmodel; sourceTree = "<group>"; };
 		B9C5863E1B1CC60A00647936 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D63017BDC7829F650C02FBFD /* Pods-App Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-App Template/Pods-App Template.release.xcconfig"; sourceTree = "<group>"; };
+		DCF38D5E36BD372712F69BFE /* Pods-App Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App Template/Pods-App Template.debug.xcconfig"; sourceTree = "<group>"; };
 		F176C9A51AA7963A0080E334 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F176C9B51AA8B9770080E334 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F176C9B91AAE18D30080E334 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -398,7 +399,7 @@
 				780AC6EA1BDFD284007F1119 /* WebKit.framework in Frameworks */,
 				780AC6EB1BDFD284007F1119 /* QuartzCore.framework in Frameworks */,
 				780AC6EC1BDFD284007F1119 /* Security.framework in Frameworks */,
-				654D88C2798963BB588CD3FB /* libPods-Zype.a in Frameworks */,
+				79710A1FCD010B1F08955B7A /* libPods-App Template.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +550,7 @@
 				F176C9B51AA8B9770080E334 /* QuartzCore.framework */,
 				F176C9A51AA7963A0080E334 /* Security.framework */,
 				764C0AB300D78554EAEF60E3 /* libPods-Zype.a */,
+				4B19FF3C18EEE70F682116AF /* libPods-App Template.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -581,7 +583,7 @@
 		F1BB52811A76D7D100E901F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				780AC7081BDFD284007F1119 /* Zype TV.app */,
+				780AC7081BDFD284007F1119 /* App Template TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -783,8 +785,8 @@
 		F652EFF2D75B39EA363A2B9B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0DD0AEA7B5AE6D1C598FD3F3 /* Pods-Zype.debug.xcconfig */,
-				A1D84BA0F72FFDAA8DEC35F6 /* Pods-Zype.release.xcconfig */,
+				DCF38D5E36BD372712F69BFE /* Pods-App Template.debug.xcconfig */,
+				D63017BDC7829F650C02FBFD /* Pods-App Template.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -792,9 +794,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		780AC69F1BDFD284007F1119 /* Zype */ = {
+		780AC69F1BDFD284007F1119 /* App Template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "Zype" */;
+			buildConfigurationList = 780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "App Template" */;
 			buildPhases = (
 				675B4C01D45986A8FD14DF51 /* [CP] Check Pods Manifest.lock */,
 				780AC6A11BDFD284007F1119 /* Sources */,
@@ -808,9 +810,9 @@
 			);
 			dependencies = (
 			);
-			name = Zype;
+			name = "App Template";
 			productName = ACShow;
-			productReference = 780AC7081BDFD284007F1119 /* Zype TV.app */;
+			productReference = 780AC7081BDFD284007F1119 /* App Template TV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -838,7 +840,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "Zype" */;
+			buildConfigurationList = F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "App Template" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -851,7 +853,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				780AC69F1BDFD284007F1119 /* Zype */,
+				780AC69F1BDFD284007F1119 /* App Template */,
 			);
 		};
 /* End PBXProject section */
@@ -915,13 +917,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-App Template/Pods-App Template-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zype/Pods-Zype-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App Template/Pods-App Template-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		675B4C01D45986A8FD14DF51 /* [CP] Check Pods Manifest.lock */ = {
@@ -930,13 +935,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App Template-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		780AC7031BDFD284007F1119 /* ShellScript */ = {
@@ -964,7 +972,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zype/Pods-Zype-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App Template/Pods-App Template-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1086,7 +1094,7 @@
 /* Begin XCBuildConfiguration section */
 		780AC7061BDFD284007F1119 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DD0AEA7B5AE6D1C598FD3F3 /* Pods-Zype.debug.xcconfig */;
+			baseConfigurationReference = DCF38D5E36BD372712F69BFE /* Pods-App Template.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1106,8 +1114,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Zype",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zype.sandbox;
-				PRODUCT_NAME = "Zype TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apptemplate.app;
+				PRODUCT_NAME = "App Template TV";
 				PROVISIONING_PROFILE = "f7f41fa9-1486-4956-bd30-d422d497ae7f";
 				PROVISIONING_PROFILE_SPECIFIER = AlexDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1119,7 +1127,7 @@
 		};
 		780AC7071BDFD284007F1119 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D84BA0F72FFDAA8DEC35F6 /* Pods-Zype.release.xcconfig */;
+			baseConfigurationReference = D63017BDC7829F650C02FBFD /* Pods-App Template.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1139,8 +1147,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Zype",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zype.sandbox;
-				PRODUCT_NAME = "Zype TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apptemplate.app;
+				PRODUCT_NAME = "App Template TV";
 				PROVISIONING_PROFILE = "ba07d546-72a8-4dd2-8f98-f54a51fae876";
 				PROVISIONING_PROFILE_SPECIFIER = "Zype Sandbox Distribution";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1237,7 +1245,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "Zype" */ = {
+		780AC7051BDFD284007F1119 /* Build configuration list for PBXNativeTarget "App Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				780AC7061BDFD284007F1119 /* Debug */,
@@ -1246,7 +1254,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "Zype" */ = {
+		F1BB527B1A76D7D100E901F1 /* Build configuration list for PBXProject "App Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1BB52A41A76D7D100E901F1 /* Debug */,

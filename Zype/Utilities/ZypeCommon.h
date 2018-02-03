@@ -9,11 +9,11 @@
 #define Zype_ZypeCommon_h
 
 #pragma mark - Client Settings
-#define kOAuth_ClientId @"efff34ee145c7bdc8a8408a339571005f8bcdf2fb0ae5dfd0dbb248188daaf54"
-#define kOAuth_ClientSecret @"0fdedb3cf72afa6b37fabfbe100e2a2db5d6f4ecdbfe71eb53c223d722201a1d"
-#define kAppKey @"HQokZlmb_bsw1uYYCEVP5UQis08D9tDJgRrCtAStwJ7HmjBovVAMNz1WjpNJE-KU"
+#define kOAuth_ClientId @"52029bd156e6f05c7190dc3888563abd41ff84a0712a7ca416cbe464f64b6fd5"
+#define kOAuth_ClientSecret @"369b84e544eb730b5729ae0d4008e0f91fb91e4385d90ee568048619bbe2b255"
+#define kAppKey @"3ugi6yxKXuVpT9LrJQmBobPGg80Hn8sPTJhPl2AsTwOgqyONpk7QwEgmHE__L1yd"
 
-#define kRootPlaylistId @"577e65c85577de0d1000c1ee"
+#define kRootPlaylistId @"591089ccc1475a1492015aa6"
 #define kOneSignalNotificationsKey @""
 #define kGoogleAnalyticsTracker @""
 
